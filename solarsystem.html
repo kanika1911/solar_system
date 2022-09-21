@@ -1,0 +1,78 @@
+<html>
+  <head>
+    
+    <title>3D Solar Sytem</title>
+    <link rel="stylesheet" type="text/css" href="./solasystem.css">
+   
+    
+  </head>
+  <body>
+       <div class="heading">
+        <h1>
+          Weight on planets:
+        </h1>
+       </div>
+       
+       <div id="weight">
+       
+        <input type="number" id="kk" placeholder="Enter weight">
+       </div>
+
+      <nav class="nav">
+      <button id="mercury" type="button" class="planet" value="mercury" onclick="mercval()">Mercury</button>
+      <button id="venus" type="button"  class="planet" value="venus"   onclick="venval()">Venus</button>
+      <button id="earth" type="button"  class="planet" value="earth"   onclick="earval()">Earth</button>
+      <button id="mars" type="button"    class="planet" value="mars"    onclick="marval()">Mars</button>
+      <button id="jupiter"  type="button"  class="planet"value="jupiter"  onclick="jupval()">Jupiter</button>
+      <button id="saturn"  type="button"  class="planet" value="saturn"  onclick="satval()">Saturn</button>
+      <button id="uranus" type="button"   class="planet" value="uranus"  onclick="uranval()">Uranus</button>
+      <button id="neptune" type="button"  class="planet" value="neptune" onclick="nepval()">Neptune</button>
+      </nav>
+       
+      <div id="res"></div>  
+
+    <div class="wrapper">
+      
+      <div class="sun">
+        <div class="star"></div>
+      </div>
+      <div class="mercury">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="venus">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="earth">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="mars">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="jupiter">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="saturn">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="uranus">
+        <div class="planet">
+        </div>
+      </div>
+      <div class="neptune">
+        <div class="planet">
+        </div>
+      </div>
+    </div>
+ 
+  
+        
+      <script src="./solarsystem.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,26 @@
+HTML:
+1.transform applies a 2D or 3D tranformatuin to an element .allows us to rortate ,move or skew etc
+    property value of trasnform:
+    rotate:is the angle by which its hould be ratoated in 2d.
+2.Tranform-style:it specifies how nestd elements are rendered in 3d
+   value:flat-child will not be preseverd in 3d
+         3d-prevse-child will be preseverdin 3d
+         3.Amination:lets elemnt grdualyy cahnge style from one to another
+          we can change as many protery as we want and as much as we want
+    ==>TO use use css we first need to specify some keyframes for animantion
+    .the keyframes hold what style the element will have at certain time
+    ==> KEYFRAME RULE:
+     to apply css in keyframe which will gradually change from one style to another after certain amount of time
+     we nedd to bind the animantion to the elment we do
+     -by defining the keyframe an then applying it to the elment as
+     //the animation code:         //binding it to the elemnet
+      @keyframe example{          .div{ width:10px;
+      from{colo:red}                    hieght:20px;
+      to{color:white}                  animation-name:example;
+      }                                animation-time:2 sec;}
+
+
+      --animation-delay:delay for start of animatoion//if negative value is given the animation will start as if had been playing already
+      --animation-iteration-count:no of time animation should run
+      --animation direction:wherther animation sholud be played forward or backward or in alternate cycles
+
